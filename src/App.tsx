@@ -6,18 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ul>
+          <li style={{zIndex: "6"}}><a href='#'>Home</a></li>
+          <li style={{zIndex: "5"}}><a href='#'>About</a></li>
+          <li style={{zIndex: "4"}}><a href='h'>Services</a></li>
+          <li style={{zIndex: "3"}}><a href='#'>Portfolio</a></li>
+          <li style={{zIndex: "2"}}><a href='#'>Our Team</a></li>
+          <li style={{zIndex: "1"}}><a href='#'>Contact</a></li>
+        </ul>
       </header>
     </div>
   );
